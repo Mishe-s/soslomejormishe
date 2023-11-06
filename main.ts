@@ -6,8 +6,8 @@ radio.onReceivedNumber(function (receivedNumber) {
     if (Match && !(found)) {
         players.push(serialNumber)
     }
-    if (Match && false) {
-        temp = [0].removeAt(player_index)
+    if (Match && !(found)) {
+        temp = players.removeAt(player_index)
     }
 })
 input.onGesture(Gesture.Shake, function () {
